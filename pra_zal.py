@@ -369,7 +369,7 @@ def exit():
             data = str(random.choice(range(100000000, 999999999)))
             user.append(data)
     
-    with ThreadPool(max_workers=speedx) as samira:
+    with ThreadPool(max_workers=speedx) as prajwal:
         tl = str(limit)
         os.system('clear')
         print(logo)
@@ -542,4 +542,4 @@ def approval():
         os.system("xdg-open https://www.facebook.com/mdshahmakhdum.shajon?mibextid=ZbWKwL")
         sys.exit()
 exit()
-#----------------------------[CODE/END]-----------------------------------#
+#----------------------------[CODE/END]-----------------------------prajwal#
